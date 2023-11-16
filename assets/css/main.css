@@ -17,7 +17,7 @@
     text-align: right;
 }
 .sizefix {
-    width: 565px;
+    width: 575px;
     margin: auto;
 }
 img {
@@ -74,6 +74,7 @@ img {
 /* Body Part */
 
 .main-body {
+    height: 800px;
     padding: 13px 5px;
     /* background-color: antiquewhite; */
 }
@@ -133,4 +134,34 @@ img {
 }
 .myself a{
     text-decoration: none;
+}
+.footerWrap{
+    padding-top: 10px;
+    height: 50px;
+    background-color: black;
+    line-height: 20px;
+}
+.footer{
+    width: 1050px;
+    margin: auto;
+    color: white;
+}
+.footer .socialicons{font-size: 18px;}
+.footer .socialicons p{
+    padding-right: 3px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 17px;
+}
+.footer .socialicons a{
+    padding: 0px 1px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.copyrightss{
+    width: 1050px;
+    /* border: 1px solid red; */
+    color: white;
+    margin: auto;
 }
