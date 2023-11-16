@@ -17,7 +17,7 @@
     text-align: right;
 }
 .sizefix {
-    width: 600px;
+    width: 565px;
     margin: auto;
 }
 img {
@@ -59,10 +59,10 @@ img {
 }
 .header-right ul li a {
     color: black;
-    font-size: 16px;
+    font-size: 17px;
     text-decoration: none;
     padding: 1px 8px;
-    border-right: 2px solid black;
+    /* border-right: 2px solid black; */
 }
 .header-right ul li:last-child a {
     border-right: none;
@@ -116,4 +116,21 @@ img {
     text-decoration: none;
     display: inline-block;
     padding: 5px;
+    color: black;
+    font-size: 14px;
+}
+
+
+/* Body details intro */
+.myself{
+    
+}
+.myself p{
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+    padding-top: 15px;
+}
+.myself a{
+    text-decoration: none;
 }
