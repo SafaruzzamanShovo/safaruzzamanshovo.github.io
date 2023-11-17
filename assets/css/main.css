@@ -74,7 +74,7 @@ img {
 /* Body Part */
 
 .main-body {
-    height: 800px;
+    height: 100vh;
     padding: 13px 5px;
     /* background-color: antiquewhite; */
 }
