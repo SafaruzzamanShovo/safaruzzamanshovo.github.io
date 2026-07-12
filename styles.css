@@ -430,6 +430,110 @@ strong {
   transform: scale(1.1);
 }
 
+/* Header tagline */
+.header-tagline {
+  font-size: 0.95rem;
+  color: var(--accent-color);
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+/* Sticky section navigation */
+.section-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px var(--shadow-color);
+}
+
+.section-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0.6rem 0;
+  margin: 0;
+}
+
+.section-nav a {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  border-radius: 4px;
+  transition: all var(--transition-time) ease;
+}
+
+.section-nav a:hover {
+  color: var(--accent-color);
+  background-color: rgba(74, 116, 185, 0.08);
+}
+
+/* Education section */
+.edu-item {
+  padding: 0.75rem 0;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.edu-degree {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.edu-year {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.edu-school {
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
+/* Projects section */
+.project-item {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+
+.project-stack {
+  font-size: 0.85rem;
+  color: var(--accent-color);
+  margin-bottom: 0.4rem;
+}
+
+.project-item p {
+  margin: 0.2rem 0;
+}
+
+/* Back to top link */
+.back-to-top {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+}
+
 /* Responsive design fixes */
 @media (max-width: 768px) {
   /* Make header stack vertically on mobile */
@@ -451,5 +555,14 @@ strong {
   .service-category:hover, .misc-item:hover, .news-list li:hover,
   nav a:hover, .social-links-header a:hover, .pub-links a:hover {
     transform: none !important;
+  }
+
+  .section-nav ul {
+    justify-content: center;
+  }
+
+  .edu-header {
+    flex-direction: column;
+    gap: 0.1rem;
   }
 }
