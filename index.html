@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<meta name="description" content="Academic portfolio and PhD application website.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Top navigation -->
+<header class="topnav" id="topnav">
+  <div class="topnav-inner">
+    <a class="nav-mark" href="#hero" id="navMark">--</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-menu" id="navList" aria-label="Section navigation">
+      <ul class="nav-list" id="navLinks"><!-- injected --></ul>
+      <span class="nav-year" id="navYear"></span>
+    </nav>
+  </div>
+  <div class="nav-progress" aria-hidden="true"><span class="nav-progress-fill" id="navProgressFill"></span></div>
+</header>
+
+  <main class="content" id="main">
+
+    <!-- HERO -->
+    <header class="hero" id="hero">
+      <div class="hero-top">
+        <div class="hero-text">
+          <p class="eyebrow" id="heroEyebrow"><!-- injected --></p>
+          <h1 class="hero-name" id="heroName"><!-- injected --></h1>
+          <p class="hero-affiliation" id="heroAffiliation"><!-- injected --></p>
+          <span class="status-pill" id="statusPill"><!-- injected --></span>
+        </div>
+
+        <figure class="hero-photo">
+          <span class="hero-photo-frame">
+            <img id="heroPhotoImg" alt="" hidden>
+            <span class="hero-photo-fallback" id="heroPhotoFallback"></span>
+          </span>
+          <figcaption id="heroPhotoCaption"><!-- injected --></figcaption>
+        </figure>
+      </div>
+
+      <!-- ABOUT ME - replaces abstract -->
+      <div class="about-box" id="aboutBox">
+        <p id="heroAbstract"><!-- injected --></p>
+      </div>
+
+      <p class="keywords" id="heroKeywords"><!-- injected --></p>
+
+      <div class="link-row" id="heroLinks"><!-- injected --></div>
+    </header>
+
+    <!-- RESEARCH INTERESTS -->
+    <section class="section" id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading"><span class="sec-no">01</span> Research Interests</h2>
+      <div class="interest-list" id="researchGrid"><!-- injected --></div>
+    </section>
+
+    <!-- TECHNICAL SKILLS -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading"><span class="sec-no">02</span> Technical Skills</h2>
+      <div class="skills-groups" id="skillsGroups"><!-- injected --></div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading"><span class="sec-no">03</span> Education</h2>
+      <ol class="timeline" id="educationList"><!-- injected --></ol>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications" aria-labelledby="publications-heading">
+      <h2 id="publications-heading"><span class="sec-no">04</span> Publications &amp; Preprints</h2>
+      <ol class="pub-list" id="publicationsList"><!-- injected --></ol>
+    </section>
+
+    <!-- RESEARCH EXPERIENCE -->
+    <section class="section" id="research-experience" aria-labelledby="research-experience-heading">
+      <h2 id="research-experience-heading"><span class="sec-no">05</span> Research Experience</h2>
+      <ol class="experience-list" id="experienceList"><!-- injected --></ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading"><span class="sec-no">06</span> Projects</h2>
+      <div class="projects-grid" id="projectsList"><!-- injected --></div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="section" id="blog" aria-labelledby="blog-heading">
+      <h2 id="blog-heading"><span class="sec-no">07</span> Blog</h2>
+      <ul class="blog-list" id="blogList"><!-- injected --></ul>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section" id="news" aria-labelledby="news-heading">
+      <h2 id="news-heading"><span class="sec-no">08</span> News</h2>
+      <ul class="news-list" id="newsList"><!-- injected --></ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading"><span class="sec-no">09</span> Contact</h2>
+      <p class="contact-note" id="contactNote"><!-- injected --></p>
+      <a class="contact-email" id="contactEmail" href="#"><!-- injected --></a>
+    </section>
+
+    <footer class="site-footer">
+      <p id="footerText"><!-- injected --></p>
+    </footer>
+
+  </main>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
