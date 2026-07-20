@@ -1,0 +1,67 @@
+{
+  "publications": [
+    {
+      "title": "Ideological Stance Detection in a Low-Resource Language: Polarization in Bangladeshi Public vs Private University Discourse on Social Media",
+      "authors": [
+        "S. Shovo",
+        "M. Islam",
+        "A. Hossain",
+        "S. Akhter",
+        "M. Islam"
+      ],
+      "venue": "Under review, IEEE SPICSCON 2026",
+      "thumbnail": "images/thumbs/1.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#"
+      }
+    },
+    {
+      "title": "MSLeafNet: Multi-Classes Classification with Transfer Learning of Imbalanced Malabar Spinach Leaf Diseases",
+      "authors": [
+        "M. Islam",
+        "S. Shovo",
+        "M. Faysal",
+        "A. Topo",
+        "S. Akter"
+      ],
+      "venue": "Proceedings of ECCT 2026 (Accepted)",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#"
+      }
+    },
+    {
+      "title": "Empowering Local Agriculture: A Deep Learning-Powered Web System for Identifying Bangladeshi Mango Varieties",
+      "authors": [
+        "M. Islam",
+        "S. Shovo"
+      ],
+      "venue": "Journal of Bangladesh Academy of Science, Vol. 50, Supplement 1 (2026)",
+      "thumbnail": "images/thumbs/3.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#"
+      }
+    },
+    {
+      "title": "A Hybrid Transformer–Sequential Model for Claim Checkworthiness and Sentiment Classification from News Headlines",
+      "authors": [
+        "S. Shovo",
+        "M. Islam",
+        "S. Akhter"
+      ],
+      "venue": "In preparation (2026)",
+      "thumbnail": "images/thumbs/4.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "#"
+      }
+    }
+  ]
+}
